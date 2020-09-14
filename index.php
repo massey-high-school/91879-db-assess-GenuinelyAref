@@ -1,49 +1,6 @@
-<!DOCTYPE HTML>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Put Content Here">
-    <meta name="keywords" content="Put keywords here">
-    <meta name="author" content="Put your name here">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Orange Reviews</title>
-    
-    <!-- Edit the link below / replace with your chosen google font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
-    
-    <!-- Website CSS -->
-    <link rel="stylesheet" href="css/food_style.css"> 
-    
-    <!-- Custom website icon (favicon) -->
-    <link href="Images/orange.png" rel="icon" type="image/icon" sizes="32x32">
-    
-</head>
-    
-<body>
-    
-    <div class="wrapper">
-    
-
-        
-        <div class="box banner">
-            
-        <!-- logo image linking to home page goes here -->
-        <a href="index.php">
-            <div class="box logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="Images/sandwich_resized.png" alt="generic logo" />
-            
-            </div>    <!-- / logo -->
-        </a>
-            
-            <h1>Orange Reviews</h1>
-        </div>    <!-- / banner -->      
-        
-        <div class="box side">
-            Search Menu
-        </div>
+<?php
+    include "topbit.php";
+?>
         
         <div class="box main">
             <h2>Food Review Database</h2>
@@ -61,12 +18,7 @@
             </p>
             
         </div>    <!-- / main -->
-        
 
-        <div class="box footer">
-            CC Aref Osman 2020
-        </div>    <!-- / footer -->
-    
-    </div>  <!-- / wrapper  -->
-    
-</body>        
+<?php
+    include "bottombit.php";
+?>
